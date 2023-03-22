@@ -25,7 +25,12 @@ function generatePassword(){
     novaSenha = pass;
 }
 
+
+//modificacoes aplicadas
+
 function copyPassword(){
     alert("Senha copiada com sucesso!")
     navigator.clipboard.writeText(novaSenha);
 }
+
+nao pode atrapalhar a main
